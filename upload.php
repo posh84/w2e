@@ -50,10 +50,10 @@ function cleanupTempFiles($tempDir, $maxAge = 3600) {
 }
 
 // Thông tin kết nối database
-$db_host = 'mysql.eqlab.vn';
+$db_host = 'localhost';
 $db_user = 'root';
-$db_pass = 'EugIDhwU1vwwJUz2+mgO8kU320a8imyT';
-$db_name = 'eqlabvn_lab';
+$db_pass = '';
+$db_name = 'test';
 
 // Kết nối database
 try {
